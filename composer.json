@@ -1,0 +1,22 @@
+{
+    "name": "experius/module-sendsimpleemailexample",
+    "description": "",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "info@mage2gen.com",
+            "name": "Mage2Gen"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Experius\\SendSimpleEmailExample\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
