@@ -27,7 +27,7 @@ class Mail
         $message->setBodyHtml('<strong>Hello Email</strong>');
         $message->setSubject('Simple Email Example');
 
-        $mailTransport = $this->mailTransportFactory->create(['message' => clone $message]);
+        $mailTransport = $this->mailTransportFactory->create(['message' => $message]);
 
         $mailTransport->sendMessage();
     }
